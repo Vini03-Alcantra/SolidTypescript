@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "tsc": "^2.0.3",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --respawn ",
+    "build": "tsc"
+  },
+  "name": "TYPESCRIPTSOLID",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vinicius de alcântra Barros <viniciusalcantarabarros@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "tsc-node": "^0.0.3"
+  }
+}
